@@ -1,15 +1,12 @@
 /*
- * Exercise 2-6
- * Write a function setbits(x,p,n,y)
- * that returns x with the n bits that begin at position p
- * set to the rightmost n bits of y,
- * leaving the other bits unchanged.
- */
+  Exercise 2-6
+  Write a function setbits(x,p,n,y)
+  that returns x with the n bits that begin at position p
+  set to the rightmost n bits of y,
+  leaving the other bits unchanged.
+*/
 
 #include <stdio.h>
-
-int bitlen(unsigned d);
-unsigned setbits(unsigned x, unsigned p, unsigned n, unsigned y);
 
 int bitlen(unsigned d)
 {
@@ -62,5 +59,5 @@ int main()
   Thoughts: 
     It's quite difficult for me at the first time since I am a beginer.
     But when you understood what those meaning, it became easily. 
-    Try to thinking in binary when you look a digit.
+    Try to thinking in binary when you are looking at a digit.
 */
