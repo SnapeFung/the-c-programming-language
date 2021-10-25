@@ -6,21 +6,19 @@
 */
 #include <stdio.h>
 
-
 int bit_count(unsigned x)
 {
-  int b;
-  for (b = 0; x != 0; x &= (x - 1))
-    b++;
-  return b;
+    int b;
+    for (b = 0; x != 0; x &= (x - 1))
+        b++;
+    return b;
 }
 
 int main()
 {
-  bit_count(12312);
-  return 0;
+    bit_count(12312);
+    return 0;
 }
-
 
 /* 
   1011100 & 1011011 => 1011000
